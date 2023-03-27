@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document
+    </title>
+    style
+        include ../static/round1.css
+    script
+        include ../static/round1.js
+</head>
+<body>
+    
+    <div>
+      <p class="Title">Round 1</p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" id="que1"><button class="quesbtn" onclick="q('qq1')">100</button></div>
+        <div class="grid-item" id="que2"><button class="quesbtn" onclick="q('qq2')">100</button></div>
+        <div class="grid-item" id="que3"><button class="quesbtn" onclick="q('qq3')">100</button></div>
+        <div class="grid-item" id="que4"><button class="quesbtn" onclick="q('qq4')">100</button></div>
+        <div class="grid-item" id="que5"><button class="quesbtn" onclick="q('qq5')">100</button></div>
+        <div class="grid-item" id="que6"><button class="quesbtn" onclick="q('qq6')">200</button></div>
+        <div class="grid-item" id="que7"><button class="quesbtn" onclick="q('qq7')">200</button></div>
+        <div class="grid-item" id="que8"><button class="quesbtn" onclick="q('qq8')">200</button></div>
+        <div class="grid-item" id="que9"><button class="quesbtn" onclick="q('qq9')">200</button></div>
+        <div class="grid-item" id="que10"><button class="quesbtn" onclick="q('qq10')">200</button></div>
+        <div class="grid-item" id="que11"><button class="quesbtn" onclick="q('qq11')">300</button></div>
+        <div class="grid-item" id="que12"><button class="quesbtn" onclick="q('qq12')">300</button></div>
+        <div class="grid-item" id="que13"><button class="quesbtn" onclick="q('qq13')">300</button></div>
+        <div class="grid-item" id="que14"><button class="quesbtn" onclick="q('qq14')">300</button></div>
+        <div class="grid-item" id="que15"><button class="quesbtn" onclick="q('qq15')">300</button></div>
+        <div class="grid-item" id="que16"><button class="quesbtn" onclick="q('qq16')">400</button></div>
+        <div class="grid-item" id="que17"><button class="quesbtn" onclick="q('qq17')">400</button></div>
+        <div class="grid-item" id="que18"><button class="quesbtn" onclick="q('qq18')">400</button></div>
+        <div class="grid-item" id="que19"><button class="quesbtn" onclick="q('qq19')">400</button></div>
+        <div class="grid-item" id="que20"><button class="quesbtn" onclick="q('qq20')">400</button></div>
+        <div class="grid-item" id="que21"><button class="quesbtn" onclick="q('qq21')">500</button></div>
+        <div class="grid-item" id="que22"><button class="quesbtn" onclick="q('qq22')">500</button></div>
+        <div class="grid-item" id="que23"><button class="quesbtn" onclick="q('qq23')">500</button></div>
+        <div class="grid-item" id="que24"><button class="quesbtn" onclick="q('qq24')">500</button></div>
+        <div class="grid-item" id="que25"><button class="quesbtn" onclick="q('qq25')">500</button></div>
+    </div>
+    <div class="team-dash">
+        <div class="team" id="team1">
+          <p>Team 1</p>
+          <br>
+          <button class="teambutton" onclick="plusupdate('t1')">&#43;</button>
+          <div id="score1">0</div>
+          <button class="teambutton" onclick="minusupdate('t1')">&#8722;</button>
+        </div>
+        <div class="team" id="team2">
+            <p>Team 2</p>
+            <br>
+            <button class="teambutton" onclick="plusupdate('t2')">&#43;</button>
+            <div id="score2">0</div>
+            <button class="teambutton" onclick="minusupdate('t2')">&#8722;</button>
+        </div>
+        <div class="team" id="team3">
+            <p>Team 3</p>
+            <br>
+            <button class="teambutton" onclick="plusupdate('t3')">&#43;</button>
+            <div id="score3">0</div>
+            <button class="teambutton" onclick="minusupdate('t3')">&#8722;</button>
+        </div>
+        <div class="team" id="team4">
+            <p>Team 4</p>
+            <br>
+            <button class="teambutton" onclick="plusupdate('t4')">&#43;</button>
+            <div id="score4">0</div>
+            <button class="teambutton" onclick="minusupdate('t4')">&#8722;</button>
+        </div>
+        <div class="team" id="team5">
+            <p>Team 5</p>
+            <br>
+            <button class="teambutton"  onclick="plusupdate('t5')">&#43;</button>
+            <div id="score5">0</div>
+            <button class="teambutton" onclick="minusupdate('t5')">&#8722;</button>
+        </div>
+
+    </div>
+      <div class="popup" id="pop">
+      <div class="titlepop">
+        <p>Question</p>
+      </div>
+      <div class="quest">
+        <p id="qest"></p>
+      </div>
+      
+      
+    </div>
+  
+</body>
+</html>

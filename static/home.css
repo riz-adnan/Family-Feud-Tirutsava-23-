@@ -1,0 +1,47 @@
+body{
+    background-image: url("../static/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+.r1box{
+    display: flex;
+    justify-content: center;
+    border-width: 0.22em;
+    border-style: solid;
+    border-color: green;
+    font-family: cursive;
+    height: 3em;
+    width: 8em;
+    background-color: blueviolet;
+    position: absolute;
+    left: 40em;
+    top: 20em;
+
+    
+}
+.r2box{
+    display: flex;
+    justify-content: center;
+    border: 0.22em;
+    border-style: solid;
+    border-color: green;
+    font-family: cursive;
+    height: 3em;
+    width: 8em;
+    background-color: blueviolet;
+    position: absolute;
+    left: 40em;
+    top: 30em;
+    
+}
+.r1{
+    text-decoration: none;
+    color: gold;
+
+}
+.r2{
+    text-decoration: none;
+    color: gold;
+    
+}

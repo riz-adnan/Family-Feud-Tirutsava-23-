@@ -1,0 +1,76 @@
+body {
+    /* background-color: rgb(236, 179, 179); */
+    background-image: url(https://aphrodite.gmanetwork.com/entertainment/shows/images/original/Show-thumb_-20220310112938.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    /* border-radius: 1em; */
+    padding: 0;
+    margin: 0;
+    /* padding: 12px; */
+  }
+  h1 {
+    text-align: center;
+    /* color: biscuit; */
+    text-shadow: 2px 2px 2px black;
+    font-size: 40px;
+    color: gold;
+  }
+
+  #qdisplay {
+    text-align: center;
+    color: biscuit;
+    text-shadow: 7px 7px 7px black;
+    font-size: 30px;
+    color: lightgreen;
+    /* text-underline-position: above; */
+    /* font */
+  }
+
+  #ques {
+    position: absolute;
+    top: 12em;
+    left: 16em;
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    border: 0.2em solid black;
+  }
+  .box {
+    display: inline-grid;
+    width: 250px;
+    height: 40px;
+    border: 0.1em solid yellow;
+    padding: 0;
+    background-color: lightblue;
+    margin: 50px 60px 0px 250px;
+    /* font-size: 2p; */
+  }
+
+  .box1 {
+    display: inline-grid;
+    width: 250px;
+    height: 40px;
+    border: 0.1em solid yellow;
+    padding: 0px;
+    background-color: lightblue;
+    /* margin: 50px 100px 50px 1200px; */
+    margin: 50px 60px 0px 250px;
+    /* color: white; */
+  }
+  .button {
+    background-color: rgb(41, 41, 223);
+  }
+
+  #text1,
+  #text2,
+  #text3,
+  #text4,
+  #text5,
+  #text6,
+  #text7,
+  #text8 {
+    display: none;
+    font-size: 2em;
+    color: antiquewhite;
+  }
