@@ -1,5 +1,5 @@
 body{
-    background-image: url("../static/logo.jpg");
+    background-image: url("../static/poster.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 100%;
@@ -9,14 +9,14 @@ body{
     justify-content: center;
     border-width: 0.22em;
     border-style: solid;
-    border-color: green;
-    font-family: cursive;
+    border-color: black;
+    /* font-family: cursive; */
     height: 3em;
-    width: 8em;
-    background-color: blueviolet;
+    width: 23em;
+    background-color: brown;
     position: absolute;
-    left: 40em;
-    top: 20em;
+    left: 14em;
+    top: 52em;
 
     
 }
@@ -25,23 +25,25 @@ body{
     justify-content: center;
     border: 0.22em;
     border-style: solid;
-    border-color: green;
-    font-family: cursive;
+    border-color: black;
+    /* font-family: cursive; */
     height: 3em;
-    width: 8em;
-    background-color: blueviolet;
+    width: 23em;
+    background-color: brown;
     position: absolute;
-    left: 40em;
-    top: 30em;
+    left: 93em;
+    top: 52em;
     
 }
 .r1{
     text-decoration: none;
-    color: gold;
-
+    text-align: center;
+    font-size: xx-large;
+    color: white;
 }
 .r2{
     text-decoration: none;
-    color: gold;
-    
+    text-align: center;
+    font-size: xx-large;
+    color: white;
 }

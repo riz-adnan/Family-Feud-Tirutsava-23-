@@ -1,6 +1,5 @@
 body {
-    /* background-color: rgb(236, 179, 179); */
-    background-image: url(https://aphrodite.gmanetwork.com/entertainment/shows/images/original/Show-thumb_-20220310112938.png);
+    background-image: url("../static/poster.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 90%;

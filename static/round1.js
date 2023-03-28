@@ -1,8 +1,6 @@
 let check=0;
         
         function q(id){
-            console.log("hi");
-            console.log('pop');
             a=document.getElementById('pop');
             if(check==0)
             {
@@ -68,42 +66,6 @@ let check=0;
             {
               document.getElementById('qest').innerHTML="Question 16?";
             }
-            else if(id=='qq17')
-            {
-              document.getElementById('qest').innerHTML="Question 17?";
-            }
-            else if(id=='qq18')
-            {
-              document.getElementById('qest').innerHTML="Question 18?";
-            }
-            else if(id=='qq19')
-            {
-              document.getElementById('qest').innerHTML="Question 19?";
-            }
-            else if(id=='qq20')
-            {
-              document.getElementById('qest').innerHTML="Question 20?";
-            }
-            else if(id=='qq21')
-            {
-              document.getElementById('qest').innerHTML="Question 21?";
-            }
-            else if(id=='qq22')
-            {
-              document.getElementById('qest').innerHTML="Question 22?";
-            }
-            else if(id=='qq23')
-            {
-              document.getElementById('qest').innerHTML="Question 23?";
-            }
-            else if(id=='qq24')
-            {
-              document.getElementById('qest').innerHTML="Question 24?";
-            }
-            else if(id=='qq25')
-            {
-              document.getElementById('qest').innerHTML="Question 25?";
-            }
             else 
             {
               document.getElementById('qest').innerHTML="?";
@@ -148,6 +110,11 @@ let check=0;
             score5=score5+100;
             document.getElementById('score5').innerHTML=score5;
           }
+          if(team=='t6')
+          {
+            score6=score6+100;
+            document.getElementById('score6').innerHTML=score6;
+          }
           
         }
         function minusupdate(team)
@@ -155,7 +122,7 @@ let check=0;
           if(team=='t1')
           {
             score1=score1-100;
-          document.getElementById('score').innerHTML=score1;
+          document.getElementById('score1').innerHTML=score1;
 
           }
           if(team=='t2')
@@ -177,6 +144,11 @@ let check=0;
           {
             score5=score5-100;
             document.getElementById('score5').innerHTML=score5;
+          }
+          if(team=='t6')
+          {
+            score6=score6-100;
+            document.getElementById('score6').innerHTML=score6;
           }
         }
         

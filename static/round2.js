@@ -47,13 +47,27 @@ function change() {
     current = C;
   }
 
+  for(var i=0;i<8;i++) {
+    id = "text" + (i+1);
+    var a = document.getElementById(id);
+    a.style.display = "none";
+  }
+
+  check1 = 0,
+  check2 = 0,
+  check3 = 0,
+  check4 = 0,
+  check5 = 0,
+  check6 = 0,
+  check7 = 0,
+  check8 = 0;
+
   initialize();
 }
 
 function display_opt(id) {
   var a = document.getElementById(id);
   if (id == "text1" && check1 == 0) {
-    console.log("hemlo");
     a.style.display = "block";
     check1 = 1;
   } else if (id == "text1" && check1 == 1) {
