@@ -5,7 +5,7 @@ body{
 }
 .grid-container{
     display: inline-grid;
-    margin: 100px 0 0 220px;
+    margin: 30px 0 0 220px;
     border: 3px solid green;
     padding: 10px;
     grid-template-columns: 300px 300px 300px 300px 300px;
@@ -32,15 +32,26 @@ body{
 
 .heading {
     font-size: 1.5em;
+    background-color: rgb(27, 159, 235);
+    font-weight: bold;
+}
+
+#row {
+    background-color: rgb(27, 159, 235);
+}
+
+#column {
+    background-color: rgb(27, 159, 235);
 }
 
 .quesbtn{
-    font-size: 1.5em;
+    font-size: 1.7em;
     height: auto;
     width: auto;
-    font-family: cursive;
+    font-family: garamond;
     border: none;
-    background-color: rgb(135, 126, 250);
+    background-color: aqua;
+    font-weight: bold;
 }
 
 .team-dash{
@@ -48,22 +59,25 @@ body{
     flex-direction: row;
     border-radius: 10px;
     margin: 30px auto 10px auto;
+    margin-left: 450px;
 }
 
 .team{
-    height: 5em;
-    width: 15em;
-    margin-right: 30px;
-    border-width: 0.4em;
+    /* height: 5em; */
+    /* width: 15em; */
+    margin-right: 70px;
+    /* border-width: 0.4em; */
     border-color: black;
-    border-width: 2px;
-    border-style: solid;
+    /* border-width: 2px; */
+    /* border-style: solid; */
     justify-content:center;
     text-align: center;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     color: bisque;
-    font-size: 1.5em;
-    background-color: brown;
+    font-size: 2em;
+    background-color: transparent;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 .score {
@@ -78,7 +92,7 @@ body{
     justify-content: center;
     font-family: cursive;
     color: gold;
-    font-size: 1.5em;
+    font-size: 3em;
 }
 .popup{
     position: absolute;
@@ -104,5 +118,5 @@ body{
     width:4em;
     background-color: aqua;
     border-radius: 10px;
-    color: bisque ;
+    color: black ;
 }
