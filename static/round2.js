@@ -1,6 +1,6 @@
-const A = [11, 12, 13, 14, 15, 16, 17, 18]; // put your options here
-const B = [21, 22, 23, 24, 25, 26, 27, 28];
-const C = [31, 32, 33, 34, 35, 36, 37, 38];
+const A = ['Lollipop (33)', 'Icecream (32)', 'Stamp (11)', 'Popsicle (10)', 'Envelope (8)', 'Lips (2)', 'Cash (1)', '']; // put your options here
+const B = ['Bread (36)', 'Pizza (28)', 'Cake (9)', 'Pie (6)', 'Cheese (5)', '', '', ''];
+const C = ['In a relationship (36)', 'Not interested (32)', 'Busy (17)', '', '', '', '', ''];
 
 let current = A;
 let qdis = "Question 1";
@@ -37,14 +37,17 @@ function change() {
 
   if (value == "Question 1") {
     current = A;
+    qdis = "Name Something That Has to Be Licked.";
   }
 
   if (value == "Question 2") {
     current = B;
+    qdis = "Name something you eat by the slice!";
   }
 
   if (value == "Question 3") {
     current = C;
+    qdis = "If someone asked you out on a date, what's an excuse you might give if you weren't interested?";
   }
 
   for(var i=0;i<8;i++) {

@@ -1,5 +1,5 @@
 body{
-    background-image: url("../static/poster.jpg");
+    background-image: url("../static/poster_80.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,17 +96,21 @@ body{
 }
 .popup{
     position: absolute;
-    top: 15em;
-    left: 40em;
+    top: 200px;
+    left: 450px;
     display:none;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(54, 75, 233);
     border-style: solid;
     border-color: black;
-    font-size: 1.1em;
+    font-size: 50px;
     z-index: 6;
-    height: 30em;
-    width: 40em;
-    border-radius: 10px 140px 30px 140px;
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px 10px 10px 10px;
+    color: aliceblue;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
 }
 .titlepop{
     display:flex;
